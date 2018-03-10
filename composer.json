@@ -1,0 +1,41 @@
+{
+    "name": "yazilimparki/medik-api",
+    "description": "Medik (r) API service",
+    "keywords": ["medik", "api", "yii2", "framework"],
+    "homepage": "http://www.yazilimparki.com.tr/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yazilimparki/medik-api/issues?state=open",
+        "source": "https://github.com/yazilimparki/medik-api"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": ">=2.0.6",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-swiftmailer": "*",
+        "yiisoft/yii2-httpclient": "*",
+        "ostapetc/yii2-cache-counter-behavior": "*",
+        "intervention/image": "*",
+        "filsh/yii2-oauth2-server": "1.0",
+        "creocoder/yii2-flysystem": "0.8.*",
+        "league/flysystem-aws-s3-v2": "~1.0",
+        "parse/php-sdk": "1.1.*"
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "*",
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*",
+        "yiisoft/yii2-faker": "*"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
